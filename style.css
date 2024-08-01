@@ -1,0 +1,55 @@
+:root {
+  --ocean: #061130;
+  --sky: #1C4BC4;
+  --cloud: #F4F6F8;
+  --lightning: #FAFD61;
+}
+
+body {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--ocean);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+main {
+  flex-grow: 1;
+}
+
+footer {
+  background-color: var(--cloud);
+  text-align: center;
+  padding: 1rem;
+}
+
+.logo {
+  height: 20px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10rem;
+  color: white;
+}
+
+.service {
+  color: var(--lightning);
+}
+
+.links {
+  background-color: white;
+  padding: 3rem 5rem;
+}
+
+.links nav {
+  display: flex;
+  justify-content: space-between;
+}
