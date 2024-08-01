@@ -95,6 +95,18 @@ footer {
   gap: 1rem;
 }
 
+.github-link {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 1rem;
+  font-size: 2rem;
+  color: white;
+  background-color: black;
+  border-radius: 1000%;
+  padding: 3px;
+}
+
 /* !SECTION */
 
 /* SECTION media queries */
