@@ -16,6 +16,10 @@
 body {
   margin: 0;
   background-color: var(--ocean);
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 header {
@@ -87,14 +91,29 @@ footer {
 .links nav {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
 /* !SECTION */
 
 /* SECTION media queries */
-@media screen AND (max-width: 768px) {
+@media screen AND (max-width: 991.98px) {
+  header {
+    padding: 1rem;
+  }
+
+  header nav {
+    display: none;
+  }
+
   .hero {
     display: block;
+    padding: 1rem;
+  }
+
+  .links {
+    padding: 1rem;
   }
 }
 
