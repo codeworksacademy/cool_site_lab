@@ -46,6 +46,10 @@ button {
   cursor: pointer;
 }
 
+h1 {
+  font-size: 2rem;
+}
+
 footer {
   background-color: var(--cloud);
   text-align: center;
